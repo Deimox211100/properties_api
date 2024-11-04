@@ -2,7 +2,6 @@
 
 The following project extracts information from `BigQuery` tables and returns it as JSON through an API developed in `FastAPI`, which can be accessed graphically via Swagger or via REST using Postman. It also uses `Uvicorn` to deploy the local server.
 
-
 ## Project Structure
 
 ```bash
@@ -15,3 +14,6 @@ The following project extracts information from `BigQuery` tables and returns it
 │   └── endpoint.py         # Script with endpoint configuration.
 └── requirements.txt        # Required PIP libraries.
 ```
+
+### Swagger Local Link
+```http://localhost:8000/docs```
